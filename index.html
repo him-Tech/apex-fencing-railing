@@ -12,9 +12,9 @@
 
 <body>
   <!-- CONTACT -->
-  <section class=" xs:px-4 px-1 bg-[#252525] h-[40px]">
+  <section class=" xs:px-4 px-1 bg-[#252525]">
     <div
-      class="flex justify-end items-center max-w-[1200px] mx-auto h-full text-sm font-plusJarka font-medium leading-[150%] text-white space-x-[30px]">
+      class="flex flex-wrap justify-center gap-4 sm:justify-end items-center max-w-[1200px] mx-auto py-5 text-sm font-plusJarka font-medium leading-[150%] text-white space-x-[30px]">
       <a href="">
         Dealer Portal
       </a>
@@ -27,14 +27,19 @@
       <a href="tel:1-888-704-7130">
         1-888-704-7130
       </a>
-      <button>
-        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <div class="relative flex justify-center items-center ">
+        <input id="searchInput" type="text"
+          class="hidden border rounded p-2 outline-none right-0 top-0 mt-0 mr-2 z-40 text-black font-plusJarka text-xs font-medium"
+          placeholder="Search" />
+        <svg id="searchIcon" class="cursor-pointer" width="22" height="22" viewBox="0 0 22 22" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
           <path
             d="M9.12498 17.2499C13.6123 17.2499 17.25 13.6122 17.25 9.12495C17.25 4.63767 13.6123 1 9.12498 1C4.63768 1 1 4.63767 1 9.12495C1 13.6122 4.63768 17.2499 9.12498 17.2499Z"
             stroke="#EEE4DB" stroke-width="1.10833" />
           <path d="M20.875 20.9997L14.75 14.9998" stroke="#EEE4DB" stroke-width="1.10833" />
         </svg>
-      </button>
+      </div>
+
     </div>
   </section>
   <!-- NABAR -->

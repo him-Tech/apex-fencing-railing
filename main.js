@@ -17,10 +17,17 @@
                  slidesPerGroup: 2,
              },
          },
-
          navigation: {
              nextEl: ".swiper-button-next",
              prevEl: ".swiper-button-prev",
          },
 
+     });
+     const searchIcon = document.getElementById("searchIcon");
+     const searchInput = document.getElementById("searchInput");
+     searchIcon.addEventListener("click", () => {
+         searchInput.classList.toggle("hidden");
+         if (!searchInput.classList.contains("hidden")) {
+             searchInput.focus();
+         }
      });
