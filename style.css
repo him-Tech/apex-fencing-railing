@@ -57,3 +57,55 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+#sidebar {
+  position: absolute;
+  left: -300px;
+  width: 280px;
+  height: 100vh;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.751);
+  overflow-y: auto;
+  transition: all ease-in-out 0.4s;
+}
+
+.EXPERIENCES {
+  background: var(--KL-Silver, rgba(168, 169, 173, 0.30));
+}
+
+.translate-x-full#sidebar {
+  left: 0px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 769px) {
+  .swiper-slide:first-child {
+    transition: transform 100ms;
+  }
+
+  .swiper-slide.swiper-slide-active:first-child {
+    transform: translateX(50%);
+    z-index: 2;
+  }
+
+  .swiper-slide:nth-child(2) {
+    transition: transform 100ms;
+  }
+
+  .swiper-slide.swiper-slide-next:nth-child(2) {
+    transform: translateX(55%);
+    z-index: 1;
+  }
+
+  .swiper[dir="rtl"] .swiper-slide.swiper-slide-active:first-child {
+    transform: translateX(-50%);
+  }
+
+  .swiper[dir="rtl"] .swiper-slide.swiper-slide-next:nth-child(2) {
+    transform: translateX(-55%);
+  }
+}

@@ -16,7 +16,9 @@ export default {
         xs: "500px",
       },
       colors: {
-
+        backgroundColor: {
+          'kl-silver': 'var(--KL-Silver, rgba(168, 169, 173, 0.30)',
+        },
       },
     },
   },
