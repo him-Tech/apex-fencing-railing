@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
 
 body {
   background-color: white;
@@ -11,32 +11,32 @@ body {
 
 @font-face {
   font-family: RivieraNightsTrialExtraLight;
-  src: url(./public/fonts/RivieraNightsTrial-ExtraLight/RivieraNightsTrial-Light.otf);
+  src: url("./public/fonts/RivieraNightsTrial-ExtraLight/RivieraNightsTrial-Light.otf");
 }
 
 @font-face {
   font-family: RivieraNightsTrialblack;
-  src: url(./public/fonts/RivieraNightsTrial-Black/RivieraNightsTrial-Black.otf);
+  src: url("./public/fonts/RivieraNightsTrial-Black/RivieraNightsTrial-Black.otf");
 }
 
 @font-face {
   font-family: RivieraNightsTrialBold;
-  src: url(./public/fonts/RivieraNightsTrial-Bold/RivieraNightsTrial-Bold.otf);
+  src: url("./public/fonts/RivieraNightsTrial-Bold/RivieraNightsTrial-Bold.otf");
 }
 
 @font-face {
   font-family: RivieraNightsTrialLight;
-  src: url(./public/fonts/RivieraNightsTrial-light/RivieraNightsTrial-Ultralight.otf);
+  src: url("./public/fonts/RivieraNightsTrial-light/RivieraNightsTrial-Ultralight.otf");
 }
 
 @font-face {
   font-family: RivieraNightsTrialMedium;
-  src: url(./public/fonts/RivieraNightsTrial-Medium/RivieraNightsTrial-Medium.otf);
+  src: url("./public/fonts/RivieraNightsTrial-Medium/RivieraNightsTrial-Medium.otf");
 }
 
 @font-face {
   font-family: RivieraNightsTrialRegular;
-  src: url(./public/fonts/RivieraNightsTrial-Regular.otf);
+  src: url("./public/fonts/RivieraNightsTrial-Regular.otf");
 }
 
 .Hero-bg {
@@ -50,7 +50,7 @@ body {
   top: 0px;
   left: 0px;
   background-size: 100% 100%;
-  background-image: url(./public/images/Hero-bg.png);
+  background-image: url("./public/images/Hero-bg.png");
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -67,10 +67,6 @@ body {
   background-color: rgba(0, 0, 0, 0.751);
   overflow-y: auto;
   transition: all ease-in-out 0.4s;
-}
-
-.EXPERIENCES {
-  background: var(--KL-Silver, rgba(168, 169, 173, 0.30));
 }
 
 .translate-x-full#sidebar {
