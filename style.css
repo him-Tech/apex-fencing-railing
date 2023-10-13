@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .primary-btn {
+    @apply bg-[#EEE4DB] py-5 px-[30px] font-RivieraNightsBold text-melonseed text-base leading-[140%];
+  }
+}
+
 @font-face {
   font-family: RivieraNightsTrialExtraLight;
   src: url("/fonts/RivieraNightsTrial-Light.otf");
@@ -34,11 +40,6 @@
   src: url("/fonts/RivieraNightsTrial-Regular.otf");
 }
 
-.Hero-bg {
-  position: relative;
-  width: 100%;
-}
-
 .Hero-bg::before {
   content: "";
   position: absolute;
@@ -53,6 +54,7 @@
   background-position: center;
 }
 
+/* SIDEBAR STYLE  */
 #sidebar {
   position: absolute;
   left: -300px;
@@ -67,6 +69,8 @@
 .translate-x-full#sidebar {
   left: 0px;
 }
+
+/* SWIPER STYLE  */
 
 .swiper {
   width: 100%;

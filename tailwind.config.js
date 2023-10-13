@@ -16,6 +16,7 @@ export default {
         xs: "500px",
       },
       colors: {
+        melonseed: "#32281f",
         darkGray: "#a8a9ad4d",
       },
     },
