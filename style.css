@@ -11,32 +11,32 @@ body {
 
 @font-face {
   font-family: RivieraNightsTrialExtraLight;
-  src: url("./public/fonts/RivieraNightsTrial-ExtraLight/RivieraNightsTrial-Light.otf");
+  src: url("/fonts/RivieraNightsTrial-ExtraLight/RivieraNightsTrial-Light.otf");
 }
 
 @font-face {
   font-family: RivieraNightsTrialblack;
-  src: url("./public/fonts/RivieraNightsTrial-Black/RivieraNightsTrial-Black.otf");
+  src: url("/fonts/RivieraNightsTrial-Black/RivieraNightsTrial-Black.otf");
 }
 
 @font-face {
   font-family: RivieraNightsTrialBold;
-  src: url("./public/fonts/RivieraNightsTrial-Bold/RivieraNightsTrial-Bold.otf");
+  src: url("/fonts/RivieraNightsTrial-Bold/RivieraNightsTrial-Bold.otf");
 }
 
 @font-face {
   font-family: RivieraNightsTrialLight;
-  src: url("./public/fonts/RivieraNightsTrial-light/RivieraNightsTrial-Ultralight.otf");
+  src: url("/fonts/RivieraNightsTrial-light/RivieraNightsTrial-Ultralight.otf");
 }
 
 @font-face {
   font-family: RivieraNightsTrialMedium;
-  src: url("./public/fonts/RivieraNightsTrial-Medium/RivieraNightsTrial-Medium.otf");
+  src: url("/fonts/RivieraNightsTrial-Medium/RivieraNightsTrial-Medium.otf");
 }
 
 @font-face {
   font-family: RivieraNightsTrialRegular;
-  src: url("./public/fonts/RivieraNightsTrial-Regular.otf");
+  src: url("/fonts/RivieraNightsTrial-Regular.otf");
 }
 
 .Hero-bg {
@@ -50,7 +50,7 @@ body {
   top: 0px;
   left: 0px;
   background-size: 100% 100%;
-  background-image: url("./public/images/Hero-bg.png");
+  background-image: url("/images/Hero-bg.png");
   width: 100%;
   height: 100%;
   z-index: -1;
