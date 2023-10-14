@@ -1,11 +1,7 @@
 import Swiper from "swiper";
 import "swiper/css";
-
-const toggleSidebarButton = document.getElementById("toggleSidebar");
-const sidebar = document.getElementById("sidebar");
-toggleSidebarButton.addEventListener("click", () => {
-  sidebar.classList.toggle("translate-x-full");
-});
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 // SWIPER
 new Swiper(".mySwiper", {
@@ -49,4 +45,11 @@ crossIcon.addEventListener("click", () => {
   if (!searchInput.classList.contains("hidden")) {
     searchInput.focus();
   }
+});
+
+// SIDEBAR
+const toggleSidebarButton = document.getElementById("toggleSidebar");
+const sidebar = document.getElementById("sidebar");
+toggleSidebarButton.addEventListener("click", () => {
+  sidebar.classList.toggle("translate-x-full");
 });
