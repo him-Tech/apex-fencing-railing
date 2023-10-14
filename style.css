@@ -16,7 +16,59 @@
   .transparent-btn {
     @apply bg-transparent py-5 px-[42px] font-RivieraNightsBold text-white text-base leading-[140%];
   }
+
+  .main-headings {
+    @apply mb-6 font-RivieraNightsMedium text-[35px] text-[#2A2B2A] leading-[130%];
+  }
+
+  @media only screen and (min-width: 769px) {
+    .main-headings {
+      @apply mb-[74px] text-[48px];
+    }
+  }
+
+  .our-product {
+    @apply absolute bottom-[22px] text-[24px] font-RivieraNightsMedium leading-[120%] text-[#FCFCFA];
+  }
+
+  .advantage-section-heading {
+    @apply text-black font-RivieraNightsMedium leading-[120%] text-2xl mt-10 mb-5
+  }
+
+  .advantage-section {
+    @apply font-plusJarka font-normal leading-[170%] text-sm text-black;
+  }
+
+  .real-experience {
+    @apply text-black font-RivieraNightsRegular text-lg leading-[150%] max-w-[469px];
+  }
+
+
+  @media only screen and (min-width: 769px) {
+    .real-experience {
+      @apply text-3xl;
+    }
+  }
+
+  .showcase-tags {
+    @apply absolute bottom-10 text-white font-plusJarka font-medium leading-[120%] text-sm;
+  }
+
+  .blog {
+    @apply text-black font-RivieraNightsMedium leading-[120%] text-base pt-5 pb-[30px];
+  }
+
+  @media only screen and (min-width: 769px) {
+    .real-experience {
+      @apply text-2xl pt-[38px] pb-[54px];
+    }
+  }
+
+  .footer-links {
+    @apply text-sm font-normal font-plusJarka leading-[170%] space-y-2 flex flex-col;
+  }
 }
+
 
 
 @font-face {
