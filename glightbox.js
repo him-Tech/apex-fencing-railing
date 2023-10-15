@@ -1,3 +1,4 @@
+import GLightbox from "glightbox";
 // LIGHTBOX
 const lightbox = GLightbox({
   selector: ".glightbox", // your selector
