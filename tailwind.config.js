@@ -12,10 +12,6 @@ export default {
         RivieraNightsRegular: ["RivieraNightsTrialRegular"],
         plusJarka: ["Plus-Jakart-Sans", "sans-serif"],
       },
-      screens: {
-        xs: "500px",
-        xl: "1440px",
-      },
       colors: {
         melonseed: "#32281f",
         darkGray: "#a8a9ad4d",

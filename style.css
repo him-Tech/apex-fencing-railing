@@ -6,33 +6,19 @@
 
 @layer base {
   .primary-btn {
-    @apply bg-[#EEE4DB] py-3 px-[30px] font-RivieraNightsBold text-melonseed text-base leading-[140%];
+    @apply bg-[#EEE4DB] py-4 md:py-5 px-[30px] font-RivieraNightsBold text-melonseed text-base leading-[140%];
   }
 
   .secondary-btn {
-    @apply bg-[#252525] py-3 px-[42px] font-plusJarka font-medium text-white text-base leading-[140%];
+    @apply bg-[#252525] py-4 md:py-5 px-[42px] font-plusJarka font-medium text-white text-base leading-[140%];
   }
 
   .transparent-btn {
-    @apply bg-transparent py-3 px-[42px] font-RivieraNightsBold text-white text-base leading-[140%];
-  }
-
-  @media only screen and (min-width: 769px) {
-    .primary-btn,
-    .secondary-btn,
-    .transparent-btn {
-      @apply py-5;
-    }
+    @apply bg-transparent py-4 md:py-5 px-[42px] font-RivieraNightsBold text-white text-base leading-[140%];
   }
 
   .main-headings {
-    @apply mb-6 font-RivieraNightsMedium text-[35px] text-[#2A2B2A] leading-[130%];
-  }
-
-  @media only screen and (min-width: 769px) {
-    .main-headings {
-      @apply mb-[74px] text-[48px];
-    }
+    @apply font-RivieraNightsMedium text-[35px] text-[#2A2B2A] leading-[130%];
   }
 
   .our-product {
@@ -48,13 +34,7 @@
   }
 
   .real-experience {
-    @apply text-black font-RivieraNightsRegular text-lg leading-[150%] max-w-[469px];
-  }
-
-  @media only screen and (min-width: 769px) {
-    .real-experience {
-      @apply text-3xl;
-    }
+    @apply text-black font-RivieraNightsRegular text-lg md:text-3xl leading-[150%] max-w-[469px];
   }
 
   .showcase-tags {
@@ -63,12 +43,6 @@
 
   .blog-title {
     @apply text-black font-RivieraNightsMedium leading-[120%] text-base pt-5 pb-[30px];
-  }
-
-  @media only screen and (min-width: 769px) {
-    .real-experience {
-      @apply text-2xl pt-[38px] pb-[54px];
-    }
   }
 
   .footer-links {
@@ -143,7 +117,15 @@
   height: 100%;
 }
 
-@media only screen and (min-width: 769px) {
+.continue:hover span {
+  color: red;
+}
+
+.continue span {
+  transition: all ease-in-out 0.5s ease-in-out;
+}
+
+@media (min-width: 769px) {
   .swiper-slide:first-child {
     transition: transform 100ms;
   }
@@ -171,10 +153,8 @@
   }
 }
 
-.continue:hover span {
-  color: red;
-}
-
-.continue span {
-  transition: all ease-in-out 0.5s ease-in-out;
+@media (max-width: 640px) {
+  .Hero-bg::before {
+    background-size: cover;
+  }
 }
