@@ -1,5 +1,8 @@
 import Swiper from "swiper";
-import { Navigation, Pagination } from "swiper/modules";
+import {
+  Navigation,
+  Pagination
+} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -12,6 +15,7 @@ new Swiper(".mySwiper", {
   grabCursor: true,
   keyboard: {
     enabled: true,
+
   },
   breakpoints: {
     769: {

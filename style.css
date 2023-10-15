@@ -16,13 +16,16 @@
   .transparent-btn {
     @apply bg-transparent py-3 px-[42px] font-RivieraNightsBold text-white text-base leading-[140%];
   }
+
   @media only screen and (min-width: 769px) {
+
     .primary-btn,
     .secondary-btn,
     .transparent-btn {
       @apply py-5;
     }
   }
+
   .main-headings {
     @apply mb-6 font-RivieraNightsMedium text-[35px] text-[#2A2B2A] leading-[130%];
   }
@@ -168,9 +171,11 @@
     transform: translateX(-55%);
   }
 }
+
 .continue:hover span {
   color: red;
 }
+
 .continue span {
   transition: all ease-in-out 0.5s ease-in-out;
 }
