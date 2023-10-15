@@ -1,8 +1,5 @@
 import Swiper from "swiper";
-import {
-  Navigation,
-  Pagination
-} from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -15,7 +12,6 @@ new Swiper(".mySwiper", {
   grabCursor: true,
   keyboard: {
     enabled: true,
-
   },
   breakpoints: {
     769: {
@@ -59,4 +55,21 @@ const sidebar = document.getElementById("sidebar");
 toggleSidebarButton.addEventListener("click", () => {
   sidebar.classList.toggle("translate-x-full");
   document.body.classList.toggle("overflow-hidden");
+});
+
+// BACK TO TOP BUTTON
+const backToTopButton = document.getElementById("back-to-top");
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTopButton.classList.remove("hidden");
+  } else {
+    backToTopButton.classList.add("hidden");
+  }
+});
+
+backToTopButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 });
