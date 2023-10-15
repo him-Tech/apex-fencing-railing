@@ -18,7 +18,6 @@
   }
 
   @media only screen and (min-width: 769px) {
-
     .primary-btn,
     .secondary-btn,
     .transparent-btn {
@@ -62,7 +61,7 @@
     @apply absolute bottom-10 text-white font-plusJarka font-medium leading-[120%] text-sm;
   }
 
-  .blog {
+  .blog-title {
     @apply text-black font-RivieraNightsMedium leading-[120%] text-base pt-5 pb-[30px];
   }
 
