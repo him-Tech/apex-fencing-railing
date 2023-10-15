@@ -1,7 +1,7 @@
 import GLightbox from "glightbox";
-// LIGHTBOX
+
 const lightbox = GLightbox({
-  selector: ".glightbox", // your selector
+  selector: ".glightbox",
 });
 
 lightbox.on("open", () => {
