@@ -1,4 +1,5 @@
 import Swiper from "swiper";
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -18,6 +19,7 @@ new Swiper(".mySwiper", {
       slidesPerGroup: 2,
     },
   },
+  modules: [Navigation, Pagination],
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
