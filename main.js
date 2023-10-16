@@ -5,17 +5,17 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // SWIPER
-new Swiper(".mySwiper", {
+new Swiper(".reviews-swiper", {
+  slidesPerView: 1,
   slidesPerView: 1,
   centeredSlides: false,
-  slidesPerGroupSkip: 1,
   grabCursor: true,
   keyboard: {
     enabled: true,
   },
   breakpoints: {
     769: {
-      slidesPerView: 2.4,
+      slidesPerView: 2.3,
       slidesPerGroup: 2,
     },
   },
@@ -24,6 +24,9 @@ new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  // pagination: {
+  //   el: ".swiper-pagination",
+  // },
 });
 
 // HEADER SEARCH BAR

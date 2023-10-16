@@ -18,15 +18,15 @@
   }
 
   .main-headings {
-    @apply font-RivieraNightsMedium text-[35px] text-[#2A2B2A] leading-[130%];
+    @apply font-RivieraNightsMedium text-[30px] sm:text-[35px] text-[#2A2B2A] leading-[130%];
   }
 
   .our-product {
-    @apply absolute bottom-[22px] text-[24px] font-RivieraNightsMedium leading-[120%] text-[#FCFCFA];
+    @apply absolute bottom-[22px] text-[20px] sm:text-[24px] font-RivieraNightsMedium leading-[120%] text-[#FCFCFA];
   }
 
   .advantage-section-heading {
-    @apply text-black font-RivieraNightsMedium leading-[120%] text-2xl mt-10 mb-5;
+    @apply text-black font-RivieraNightsMedium leading-[120%] text-xl sm:text-2xl;
   }
 
   .advantage-section {
@@ -42,7 +42,7 @@
   }
 
   .blog-title {
-    @apply text-black font-RivieraNightsMedium leading-[120%] text-base pt-5 pb-[30px];
+    @apply text-black font-RivieraNightsMedium leading-[120%] text-base;
   }
 
   .footer-links {

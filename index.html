@@ -13,9 +13,9 @@
 <body class="bg-white relative">
 
   <!-- TOPBAR -->
-  <section class="sm:px-4 px-3 bg-[#252525]  w-full mx-auto sm:h-16">
+  <section class="sm:px-4 xs:px-3 px-2 bg-[#252525]  w-full mx-auto sm:h-16">
     <div
-      class=" py-5 flex justify-end items-center max-w-[1200px] mx-auto text-xs sm:text-sm font-plusJarka font-medium leading-[150%] text-white space-x-4   sm:space-x-6 relative">
+      class="py-4 xs:py-5 flex justify-end items-center max-w-[1200px] mx-auto text-xs sm:text-sm font-plusJarka font-medium leading-[150%] text-white space-x-3 xs:space-x-4 sm:space-x-6 relative">
       <a class="group transition-all ease-in-out duration-500 relative" href="#dealer-portal">
         Dealer Portal
         <span class="absolute inset-x-0 bottom-0 h-0.5 bg-[#EEE4DB] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
@@ -35,7 +35,7 @@
         <input id="searchInput" type="text"
           class="hidden border absolute sm:static left-0 rounded p-2 outline-none right-0 w-full  sm:w-fit mt-0 z-40 text-black font-plusJarka text-xs font-medium"
           placeholder="Search" />
-        <svg id="searchIcon" class="cursor-pointer transition-all ease-in-out duration-500" width="22"
+        <svg id="searchIcon" class="cursor-pointer transition-all ease-in-out duration-500 h-4 w-4 xs:w-[22px] xs:h-[22px]" width="22"
           height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M9.12498 17.2499C13.6123 17.2499 17.25 13.6122 17.25 9.12495C17.25 4.63767 13.6123 1 9.12498 1C4.63768 1 1 4.63767 1 9.12495C1 13.6122 4.63768 17.2499 9.12498 17.2499Z"
@@ -56,11 +56,11 @@
   </section>
 
   <!-- NAVBAR -->
-  <nav class="px-3 sm:px-4 bg-transparent absolute py-10 w-full z-30">
+  <nav class="px-3 sm:px-4 bg-transparent absolute py-6 xs:py-8 sm:py-10 w-full z-30">
     <div class="max-w-[1200px] mx-auto z-20 ">
       <div class=" flex justify-center w-full items-center">
         <div class="flex justify-between items-center w-full ">
-          <div class="md:block hidden">
+          <a href="#"  class="md:block hidden">
             <svg xmlns="http://www.w3.org/2000/svg" width="155" height="60" viewBox="0 0 155 60" fill="none">
               <path
                 d="M26.0973 25.6642L21.3327 12.0741L16.568 25.6642H26.0973ZM28.9128 33.7316H13.7525L11.3161 40.8245H0L15.5393 0H27.1261L42.6654 40.8245H31.3493L28.9128 33.7316Z"
@@ -111,9 +111,9 @@
                 d="M147.913 59.3244C147.056 59.3244 146.27 59.1727 145.555 58.8692C144.84 58.5548 144.216 58.1213 143.685 57.5685C143.165 57.0048 142.759 56.3437 142.466 55.5849C142.173 54.8262 142.027 53.9916 142.027 53.0811C142.027 52.1706 142.173 51.336 142.466 50.5773C142.759 49.8185 143.165 49.1574 143.685 48.5937C144.216 48.0301 144.84 47.5965 145.555 47.293C146.27 46.9787 147.056 46.8215 147.913 46.8215C148.736 46.8215 149.473 46.9679 150.124 47.2605C150.785 47.5532 151.338 47.9325 151.782 48.3986C152.237 48.8539 152.563 49.3362 152.758 49.8456L151.587 50.4147C151.283 49.6776 150.817 49.0977 150.189 48.675C149.56 48.2523 148.801 48.0409 147.913 48.0409C147.024 48.0409 146.232 48.2523 145.539 48.675C144.845 49.0977 144.303 49.6885 143.913 50.4472C143.523 51.1951 143.328 52.0731 143.328 53.0811C143.328 54.0783 143.523 54.9563 143.913 55.715C144.303 56.4737 144.845 57.0645 145.539 57.4872C146.232 57.8991 147.024 58.105 147.913 58.105C148.704 58.105 149.414 57.9316 150.042 57.5847C150.682 57.2379 151.186 56.7664 151.554 56.1702C151.923 55.5632 152.107 54.8695 152.107 54.0891V53.4225L152.693 54.0078H147.913V52.8697H153.408V53.8778C153.408 54.669 153.267 55.4007 152.985 56.0727C152.703 56.7339 152.313 57.3083 151.815 57.7961C151.316 58.2838 150.731 58.6632 150.059 58.9342C149.398 59.1943 148.682 59.3244 147.913 59.3244Z"
                 fill="white" />
             </svg>
-          </div>
+          </a >
 
-          <div class="block md:hidden">
+          <a href="#" class="block md:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="40" viewBox="0 0 155 60" fill="none">
               <path
                 d="M26.0973 25.6642L21.3327 12.0741L16.568 25.6642H26.0973ZM28.9128 33.7316H13.7525L11.3161 40.8245H0L15.5393 0H27.1261L42.6654 40.8245H31.3493L28.9128 33.7316Z"
@@ -164,7 +164,7 @@
                 d="M147.913 59.3244C147.056 59.3244 146.27 59.1727 145.555 58.8692C144.84 58.5548 144.216 58.1213 143.685 57.5685C143.165 57.0048 142.759 56.3437 142.466 55.5849C142.173 54.8262 142.027 53.9916 142.027 53.0811C142.027 52.1706 142.173 51.336 142.466 50.5773C142.759 49.8185 143.165 49.1574 143.685 48.5937C144.216 48.0301 144.84 47.5965 145.555 47.293C146.27 46.9787 147.056 46.8215 147.913 46.8215C148.736 46.8215 149.473 46.9679 150.124 47.2605C150.785 47.5532 151.338 47.9325 151.782 48.3986C152.237 48.8539 152.563 49.3362 152.758 49.8456L151.587 50.4147C151.283 49.6776 150.817 49.0977 150.189 48.675C149.56 48.2523 148.801 48.0409 147.913 48.0409C147.024 48.0409 146.232 48.2523 145.539 48.675C144.845 49.0977 144.303 49.6885 143.913 50.4472C143.523 51.1951 143.328 52.0731 143.328 53.0811C143.328 54.0783 143.523 54.9563 143.913 55.715C144.303 56.4737 144.845 57.0645 145.539 57.4872C146.232 57.8991 147.024 58.105 147.913 58.105C148.704 58.105 149.414 57.9316 150.042 57.5847C150.682 57.2379 151.186 56.7664 151.554 56.1702C151.923 55.5632 152.107 54.8695 152.107 54.0891V53.4225L152.693 54.0078H147.913V52.8697H153.408V53.8778C153.408 54.669 153.267 55.4007 152.985 56.0727C152.703 56.7339 152.313 57.3083 151.815 57.7961C151.316 58.2838 150.731 58.6632 150.059 58.9342C149.398 59.1943 148.682 59.3244 147.913 59.3244Z"
                 fill="white" />
             </svg>
-          </div>
+          </a>
           <div class="lg:flex hidden items-center justify-between gap-[30px]">
             <ul class="lg:flex hidden justify-between items-center gap-[30px] font-plusJarka font-semibold leading-[26.743px] text-base text-white">
               <li class="transition-all ease-in-out duration-500">
@@ -298,7 +298,7 @@
                 <li><a href="#resources">Resources</a></li>
               </ul>
               <button
-                class="bg-[#EEE4DB] py-5 px-[30px] font-RivieraNightsBold text-melonseed text-base leading-[140%] sm:hidden block w-full mx-auto mt-6">
+                class="bg-[#EEE4DB] py-4 sm:py-5 px-[30px] font-RivieraNightsBold text-melonseed text-base leading-[140%] sm:hidden block w-full mx-auto mt-6">
                 Where to Buy
               </button>
             </div>
@@ -389,10 +389,10 @@
     <div class="max-w-[1200px] mx-auto px-3 sm:px-4 md:pt-[130px] py-[40px] md:pb-[140px]">
       <h2 class="md:mb-[60px] mb-6 main-headings">
         Advantages That Make a Difference</h2>
-      <div class="flex flex-wrap  justify-start items-center m-0 flex-row gap-3">
+      <div class="flex flex-wrap  justify-start items-center m-0 flex-row gap-6 sm:gap-3">
         <div class="flex justify-between items-start flex-col w-[351px]">
           <span>
-            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="w-16 h-16 sm:w-20 sm:h-20" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="40" cy="40" r="40" fill="#252525" />
               <path
                 d="M40.3333 38.6667C43.2789 38.6667 45.6667 36.2789 45.6667 33.3333C45.6667 30.3878 43.2789 28 40.3333 28C37.3878 28 35 30.3878 35 33.3333C35 36.2789 37.3878 38.6667 40.3333 38.6667Z"
@@ -405,7 +405,7 @@
             </svg>
 
           </span>
-          <h2 class="advantage-section-heading">
+          <h2 class="advantage-section-heading  my-6 sm:mt-10 sm:mb-5">
             Human-Centered Approach
           </h2>
           <p class="advantage-section">We value people—our team, our
@@ -415,14 +415,14 @@
         </div>
         <div class="flex justify-between items-start flex-col w-[351px]">
           <span>
-            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg  class="w-16 h-16 sm:w-20 sm:h-20"  width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="40" cy="40" r="40" fill="#252525" />
               <path d="M54.3337 29.3333H27.667V51.9999H54.3337V29.3333Z" stroke="#EEE4DB" stroke-width="1.33333" />
               <path d="M46.333 36V52" stroke="#EEE4DB" stroke-width="1.33333" />
               <path d="M27.667 36H54.3337" stroke="#EEE4DB" stroke-width="1.33333" />
             </svg>
           </span>
-          <h2 class="advantage-section-heading">
+          <h2 class="advantage-section-heading  my-6 sm:mt-10 sm:mb-5">
             Customizable Luxury
           </h2>
           <p class="advantage-section ">Elevate your outdoor living space with a range of
@@ -431,7 +431,7 @@
         </div>
         <div class="flex justify-between items-start flex-col w-[351px]">
           <span>
-            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="w-16 h-16 sm:w-20 sm:h-20"  width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="40" cy="40" r="40" fill="#252525" />
               <path d="M54.6663 38.6667L39.9997 53.3333L25.333 38.6667L31.9997 28H47.9997L54.6663 38.6667Z"
                 stroke="#F4EEE0" stroke-width="1.33333" />
@@ -442,7 +442,7 @@
               <path d="M34.667 38.6666L40.0003 53.3333" stroke="#F4EEE0" stroke-width="1.33333" />
             </svg>
           </span>
-          <h2 class="advantage-section-heading">
+          <h2 class="advantage-section-heading  my-6 sm:mt-10 sm:mb-5">
             Built for Longevity
           </h2>
           <p class="advantage-section ">Built to last and backed by PCI 4000
@@ -456,18 +456,18 @@
   <!-- NEXT STEP SECTION -->
   <section class=" mx-auto">
     <div class="flex justify-between md:flex-row flex-col ">
-      <div class=" w-full md:w-[55%]">
+      <div class=" w-full lg:w-[55%]">
         <img class="h-full" src="/images/Nextstep.png" alt="Nextstep ">
       </div>
       <div
-        class="bg-[#695978]  w-full md:w-[45%] flex flex-col justify-center items-start md:pl-[91px] pl-4 py-10">
-        <h2 class="font-RivieraNightsMedium text-[34px] leading-[150%] text-[#FCFCFA]">Ready for the Next Step?</h2>
+        class="bg-[#695978]  w-full lg:w-[45%] flex flex-col justify-center items-start xl:pl-[91px] px-3 sm:pr-0 sm:pl-4 py-10">
+        <h2 class="font-RivieraNightsMedium text-[30px] sm:text-[34px] leading-[150%] text-[#FCFCFA]">Ready for the Next Step?</h2>
         <p class="text-[#FCFCFA] font-normal font-plusJarka textl-lg leading-[150%] py-5">Find a nearby dealer to
           kickstart
           your outdoor
           transformation.</p>
         <button
-          class=" hover:bg-[#EEE4DB] bg-transparent transition-all ease-in-out duration-700 border-[#EEE4DB] border py-4 md:py-5 px-[33px] font-RivieraNightsMedium text-white hover:text-black text-base leading-[140%] mt-[22.14px]">
+          class=" hover:bg-[#EEE4DB] bg-transparent transition-all ease-in-out duration-700 border-[#EEE4DB] border py-4 md:py-5 px-[33px] font-RivieraNightsMedium text-white hover:text-black text-base leading-[140%] mt-2 sm:mt-6">
           Locate a Dealer
         </button>
       </div>
@@ -506,10 +506,10 @@
 
         </div>
       </div>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper flex justify-between items-center gap-3 sm:gap-[46px] ">
-          <div class="swiper-slide w-[300px] sm:w-[515px]">
-            <p class="real-experience pt-[38px] pb-[54px]">"The
+      <div class="swiper reviews-swiper">
+        <div class="swiper-wrapper flex justify-between items-center">
+          <div class="swiper-slide">
+            <p class="real-experience py-8 sm:pt-[38px] sm:pb-[54px]">"The
               quality
               of
               these
@@ -524,8 +524,8 @@
               </div>
             </div>
           </div>
-          <div class="swiper-slide w-[300px] sm:w-[515px]">
-            <p class="real-experience pt-[38px] pb-[54px]">"Working
+          <div class="swiper-slide">
+            <p class="real-experience py-8 sm:pt-[38px] sm:pb-[54px]">"Working
               with
               these products
               has <span class="text-[#AA6627]">elevated </span> the quality of my projects. My clients are consistently
@@ -541,9 +541,9 @@
               </div>
             </div>
           </div>
-          <div class="swiper-slide w-[300px] sm:w-[515px]">
+          <div class="swiper-slide">
 
-            <p class="real-experience pt-[38px] pb-[54px]">
+            <p class="real-experience py-8 sm:pt-[38px] sm:pb-[54px]">
               "Outstanding
               products matched by <span class="text-[#AA6627]"></span> excellent customer service. As
               a supplier, it's a relief to work
@@ -556,8 +556,24 @@
               </div>
             </div>
           </div>
-          <div class="swiper-slide w-[300px] sm:w-[515px]">
-            <p class="real-experience pt-[38px] pb-[54px]">"The
+          <div class="swiper-slide">
+            <p class="real-experience py-8 sm:pt-[38px] sm:pb-[54px]">"The
+              quality
+              of
+              these
+              railings
+              <span class="text-[#AA6627]">exceeded </span> all my expectations. Now, my outdoor space feels like a
+              luxurious retreat. Highly recommend!"</p>
+            <div class="flex items-center mt-8 sm:mt-14 lg:mt-20">
+              <img class="w-[100px] mr-[30px]" src="/images/SwiperImg.png" alt="">
+              <div>
+                <p class="text-[#AA6627] font-RivieraNightsBold text-2xl leading-[120%]">Emily</p>
+                <p class="font-plusJarka font-normal text-lg leading-[150%] text-black">Homeowner</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="real-experience py-8 sm:pt-[38px] sm:pb-[54px]">"The
               quality
               of
               these
@@ -573,17 +589,19 @@
             </div>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
+
       </div>
-    </div>
+    </div>  
   </section>
 
   <!-- SHOWCASE YOUR SPACE -->
   <section class="max-w-[1200px] mx-auto px-3 sm:px-4">
     <div class="md:pt-[125px] pt-[50px] md:pb-[97px] pb-[35px]">
-      <h2 class="md:mb-[74px] mb-6 main-headings">
+      <h2 class="lg:mb-[74px] mb-6 main-headings">
         Showcase Your Space
       </h2>
-      <p class="font-plusJarka text-black font-normal leading-[150%] text-xl mt-[20px] mb-10 md:mb-[88px]">Discover
+      <p class="font-plusJarka text-black font-normal leading-[150%] text-base sm:text-lg lg:text-xl mt-[20px] mb-10 md:mb-[88px]">Discover
         how
         homeowners and builders alike are transforming spaces with our products. <br> Get inspired for your next
         project.
@@ -784,7 +802,7 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col items-center justify-center mt-[65px]">
+      <div class="flex flex-col items-center justify-center mt-12 sm:mt-[65px]">
         <p class="text-black text-center font-base leading-[150%] font-plusJarka  ">Ready for more? Click below to
           explore a curated
           collection of <br> awe-inspiring
@@ -800,16 +818,16 @@
   <!-- VISUALIZE YOUR FENCE -->
   <section class=" pt-[40px] md::pt-[114px] pb-[30px] md:pb-[125px]">
     <div class="flex justify-between md:flex-row flex-col ">
-      <div class="bg-[#5A623D] w-full md:w-[45%] flex flex-col justify-center items-start md:pl-[130px] pl-4 py-10">
-        <h2 class="font-RivieraNightsMedium text-[34px] leading-[150%] text-[#FCFCFA]">Visualize Your Fence</h2>
-        <p class="text-[#FCFCFA] font-normal font-plusJarka text-lg leading-[150%] py-5">Use our Fence Builder
+      <div class="bg-[#5A623D] w-full lg:w-[45%] flex flex-col justify-center items-start xl:pl-[130px] px-3 sm:pr-0 sm:pl-4 py-10">
+        <h2 class="font-RivieraNightsMedium text-[30px] sm:text-[34px] leading-[150%] text-[#FCFCFA]">Visualize Your Fence</h2>
+        <p class="text-[#FCFCFA] font-normal font-plusJarka text-base sm:text-lg leading-[150%] py-5">Use our Fence Builder
           visualizer to preview how <br> our products will transform your outdoor living area.</p>
         <button
-          class=" hover:bg-[#EEE4DB] bg-transparent transition-all ease-in-out duration-700 border-[#EEE4DB] border py-4 md:py-5 px-[33px] font-RivieraNightsMedium text-white hover:text-black text-base leading-[140%] mt-[22.14px]">
+          class=" hover:bg-[#EEE4DB] bg-transparent transition-all ease-in-out duration-700 border-[#EEE4DB] border py-4 md:py-5 px-[33px] font-RivieraNightsMedium text-white hover:text-black text-base leading-[140%] mt-2 sm:mt-6">
           Start Designing
         </button>
       </div>
-      <div class=" w-full md:w-[55%]">
+      <div class=" w-full lg:w-[55%]">
         <img class="w-full h-full object-cover" src="/images/VisualizeYourFence.png" alt="Visualize ">
       </div>
     </div>
@@ -819,7 +837,7 @@
   <section class="max-w-[1200px] mx-auto px-3 sm:px-4">
     <h2 class=" md:mb-[74px] mb-6 main-headings">
       Blog</h2>
-    <p class="font-plusJarka text-black font-normal leading-[150%] text-xl mt-[20px] mb-[76px]">Stay updated with
+    <p class="font-plusJarka text-black font-normal leading-[150%] text-base sm:text-lg lg:text-xl pb-6 sm:py-4 sm:mt-5 sm:mb-[76px]">Stay updated with
       industry trends,
       product
       highlights, and project inspiration <br> by exploring our blog
@@ -828,8 +846,8 @@
       <a href="#"
         class="md:w-[381px] w-full border-b-8 border-b-[#5A623D] flex flex-col hover:-translate-y-1 transition-all ease-in-out duration-400">
         <img class="object-cover" src="/images/DeckSupport.png" alt="blog">
-        <div class="bg-[#EEE4DB] px-9 h-full flex flex-col justify-between">
-          <h2 class="blog-title">
+        <div class="bg-[#EEE4DB] px-4 sm:px-9 h-full flex flex-col justify-between">
+          <h2 class="blog-title  py-4 sm:pt-5 sm:pb-7">
             4
             Ways
             to
@@ -845,8 +863,8 @@
       <a href="#"
         class="md:w-[381px] w-full border-b-8 border-b-[#695978] flex flex-col  hover:-translate-y-1 transition-all ease-in-out duration-400">
         <img class="object-cover" src="/images/RellingSystem.png" alt="blog">
-        <div class="bg-[#EEE4DB] px-9 h-full">
-          <h2 class="blog-title">
+        <div class="bg-[#EEE4DB]  px-4 sm:px-9 h-full">
+          <h2 class="blog-title  py-4 sm:pt-5 sm:pb-7">
             3
             Ways
             to
@@ -860,8 +878,8 @@
       <a href="#"
         class=" md:w-[381px] w-full border-b-8 border-b-[#AA6627] flex flex-col hover:-translate-y-1 transition-all ease-in-out duration-400">
         <img class="object-cover" src="/images/DeckIssue.png" alt="blog">
-        <div class="bg-[#EEE4DB] px-9 h-full">
-          <h2 class="blog-title">
+        <div class="bg-[#EEE4DB]  px-4 sm:px-9 h-full">
+          <h2 class="blog-title  py-4 sm:pt-5 sm:pb-7">
             7
             Safety Issues
             to
@@ -877,11 +895,11 @@
     </div>
   </section>
   <!-- FOOTER -->
-  <footer class="bg-[#EEE4DB] mt-[97px] pt-[30px] sm:pt-[97px] pb-[42px] px-3 sm:px-4">
+  <footer class="bg-[#EEE4DB] mt-16 sm:mt-20 lg:mt-[100px] pt-[30px] sm:pt-[97px] pb-[42px] px-3 sm:px-4">
     <div class="max-w-[1200px] mx-auto ">
       <div class="flex sm:flex-row flex-col justify-between items-start gap-5 sm:items-center">
         <span class="cursor-pointer">
-          <svg width="155" height="60" viewBox="0 0 155 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="w-[120px] h-12 sm:w-[155px] sm:h-[60px]" width="155" height="60" viewBox="0 0 155 60" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M26.0973 25.8522L21.3327 12.2621L16.568 25.8522H26.0973ZM28.9128 33.9196H13.7525L11.3161 41.0125H0L15.5393 0.187988H27.1261L42.6654 41.0125H31.3493L28.9128 33.9196Z"
               fill="#191919" />
