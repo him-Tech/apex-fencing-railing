@@ -49,35 +49,39 @@
     @apply text-sm font-normal font-plusJarka leading-[170%] space-y-2 flex flex-col;
   }
 }
-
-@font-face {
-  font-family: RivieraNightsTrialExtraLight;
-  src: url("/fonts/RivieraNightsTrial-Light.otf");
-}
-
 @font-face {
   font-family: RivieraNightsTrialblack;
   src: url("/fonts/RivieraNightsTrial-Black.otf");
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
   font-family: RivieraNightsTrialBold;
   src: url("/fonts/RivieraNightsTrial-Bold.otf");
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
   font-family: RivieraNightsTrialLight;
   src: url("/fonts/RivieraNightsTrial-Ultralight.otf");
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
   font-family: RivieraNightsTrialMedium;
   src: url("/fonts/RivieraNightsTrial-Medium.otf");
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
   font-family: RivieraNightsTrialRegular;
   src: url("/fonts/RivieraNightsTrial-Regular.otf");
+  font-display: swap;
+  font-style: normal;
 }
 
 .Hero-bg::before {
