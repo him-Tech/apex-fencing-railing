@@ -83,3 +83,8 @@ backToTopButton.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+// GET CURRENT YEAR
+const currentYearElement = document.getElementById("currentYear");
+const currentYear = new Date().getFullYear();
+currentYearElement.textContent = currentYear;
