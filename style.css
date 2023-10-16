@@ -85,7 +85,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  background-size: 100% 100%;
+  background-size: cover;
   background-image: url("/images/Herobg.png");
   width: 100%;
   height: 100%;
@@ -142,11 +142,5 @@
 
   .swiper[dir="rtl"] .swiper-slide.swiper-slide-next:nth-child(2) {
     transform: translateX(-55%);
-  }
-}
-
-@media (max-width: 640px) {
-  .Hero-bg::before {
-    background-size: cover;
   }
 }
