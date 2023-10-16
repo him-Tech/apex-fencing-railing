@@ -86,7 +86,7 @@
   top: 0px;
   left: 0px;
   background-size: 100% 100%;
-  background-image: url("/public/images/Herobg.png");
+  background-image: url("/images/Herobg.png");
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -115,14 +115,6 @@
 .swiper {
   width: 100%;
   height: 100%;
-}
-
-.continue:hover span {
-  color: red;
-}
-
-.continue span {
-  transition: all ease-in-out 0.5s ease-in-out;
 }
 
 @media (min-width: 769px) {
