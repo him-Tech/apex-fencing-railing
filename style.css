@@ -34,7 +34,7 @@
   }
 
   .real-experience {
-    @apply text-black font-RivieraNightsRegular text-lg md:text-3xl leading-[150%] max-w-[469px];
+    @apply text-black font-normal font-RivieraNightsRegular text-lg md:text-3xl leading-[150%] max-w-[469px];
   }
 
   .showcase-tags {
