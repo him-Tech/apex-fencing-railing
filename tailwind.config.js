@@ -10,7 +10,7 @@ export default {
         RivieraNightsLight: ["RivieraNightsTrialLight "],
         RivieraNightsMedium: ["RivieraNightsTrialMedium"],
         RivieraNightsRegular: ["RivieraNightsTrialRegular"],
-        plusJarka: ["Plus-Jakart-Sans", "sans-serif"],
+        plusJarka: ["Plus Jakarta Sans", "sans-serif"],
       },
       colors: {
         melonseed: "#32281f",
