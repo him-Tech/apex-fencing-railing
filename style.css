@@ -6,7 +6,7 @@
 
 @layer base {
   .primary-btn {
-    @apply bg-[#EEE4DB] py-4 md:py-5 px-[30px] font-RivieraNightsBold text-melonseed text-base leading-[140%];
+    @apply bg-[#EEE4DB] py-4 md:py-5 px-[30px] font-RivieraNightsBold text-melonseed text-base leading-[140%] h-[61px];
   }
 
   .secondary-btn {
@@ -14,7 +14,7 @@
   }
 
   .transparent-btn {
-    @apply bg-transparent py-4 md:py-5 px-[42px] font-RivieraNightsBold text-white text-base leading-[140%];
+    @apply bg-transparent py-4 md:py-5 px-[42px] font-RivieraNightsBold text-white text-base font-bold leading-[140%];
   }
 
   .main-headings {
@@ -120,7 +120,14 @@
   width: 100%;
   height: 100%;
 }
-
+.swiper-button-prev:after {
+  opacity: 0;
+  width: 0;
+}
+.swiper-button-next:after {
+  width: 0;
+  opacity: 0;
+}
 @media (min-width: 769px) {
   .swiper-slide:first-child {
     transition: transform 100ms;
