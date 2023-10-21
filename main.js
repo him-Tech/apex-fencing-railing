@@ -88,3 +88,17 @@ backToTopButton.addEventListener("click", () => {
 const currentYearElement = document.getElementById("currentYear");
 const currentYear = new Date().getFullYear();
 currentYearElement.textContent = currentYear;
+
+document.addEventListener("DOMContentLoaded", function () {
+  const navbarContainer = document.getElementById("review-header-section");
+  const productNav = document.getElementById("review-slider");
+
+  function setLeftMargin() {
+    const leftMargin = navbarContainer.getBoundingClientRect().left;
+    console.log(leftMargin);
+    productNav.style.marginLeft = `${leftMargin}px`;
+  }
+
+  window.addEventListener("resize", setLeftMargin);
+  setLeftMargin(); // Initial call
+});
